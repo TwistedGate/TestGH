@@ -1,6 +1,6 @@
 name: Report A
 description: Hopefully this works.
-title: "[BUG] <Title>"
+title: "X did Y and thats not what Z should do."
 body:
   - type: checkboxes
     attributes:
