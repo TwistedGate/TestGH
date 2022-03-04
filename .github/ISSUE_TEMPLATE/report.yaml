@@ -7,8 +7,8 @@ body:
       label: Checkbox
       description: This is a Checkbox.
     options:
-      label: Yes.
-      required: true
+      - label: Yes.
+        required: true
   - type: dropdown
     attributes:
       label: Dropdown
