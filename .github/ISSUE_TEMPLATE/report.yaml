@@ -11,22 +11,22 @@ body:
       required: true
   - type: dropdown
     attributes:
-    label: Dropdown
-    description: This is a Dropdown.
+      label: Dropdown
+      description: This is a Dropdown.
     options: [1.0, 1.1, 1.2, 1.3]
-    validations:
+      validations:
       required: true
   - type: input
     attributes:
-    label: Input
-    description: This is an Input.
-    placeholder: abc-123
+      label: Input
+      description: This is an Input.
+      placeholder: abc-123
     validations:
       required: true
   - type: textarea
     attributes:
-    label: TextArea
-    description: This is a Textarea
+      label: TextArea
+      description: This is a Textarea
     placeholder: |
       1. One
       2. Two
