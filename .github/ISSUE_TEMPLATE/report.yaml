@@ -27,9 +27,9 @@ body:
     attributes:
       label: TextArea
       description: This is an TextArea
-    placeholder: |
-      1. One
-      2. Two
-      3. Three
+      placeholder: |
+        1. One
+        2. Two
+        3. Three
     validations:
       required: true
