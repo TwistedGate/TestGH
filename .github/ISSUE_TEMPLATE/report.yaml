@@ -9,19 +9,19 @@ body:
     options:
       label: Yes.
       required: true
+  - type: input
+    attributes:
+      label: Input
+      description: This is an Input.
+      placeholder: ABC-123
+    validations:
+      required: true
   - type: dropdown
     attributes:
       label: Dropdown
       description: This is a Dropdown.
     options: [1.0, 1.1, 1.2, 1.3]
       validations:
-      required: true
-  - type: input
-    attributes:
-      label: Input
-      description: This is an Input.
-      placeholder: abc-123
-    validations:
       required: true
   - type: textarea
     attributes:
