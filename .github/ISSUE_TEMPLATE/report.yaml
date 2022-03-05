@@ -3,7 +3,8 @@ description: Hopefully this works.
 title: "X did Y and thats not what Z should do."
 body:
   - type: markdown
-    value: "## Markdown"
+    attributes:
+      value: "## Markdown"
   - type: checkboxes
     attributes:
       label: Checkbox
