@@ -27,6 +27,8 @@ body:
         
         *If your version does not show up here, support for it has been closed.*
       options: [1.16.5, 1.18.1]
+    validations:
+      required: true
   - type: input
     attributes:
       label: Forge Version
