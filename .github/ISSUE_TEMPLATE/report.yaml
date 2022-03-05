@@ -1,5 +1,5 @@
-name: Report A
-description: Hopefully this works.
+name: Experimental Report
+description: Serves as a template and ez copypasta
 title: "X did Y and thats not what Z should do."
 body:
   - type: markdown
