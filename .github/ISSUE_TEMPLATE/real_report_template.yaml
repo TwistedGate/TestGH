@@ -1,0 +1,41 @@
+name: Bug Report
+description: Create a report to help me improve this IE Add-on!
+title: "X Crash"
+labels: Bug
+body:
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: Yes, i have searched for already existing issues.
+          required: true
+  - type: checkboxes
+    attributes:
+      label: Are you using the most recent version of X?
+      description: Please check to see if any newer version fixes the issue you're experiencing.
+      options:
+        - label: Yes, i have searched for already existing issues.
+          required: true
+  - type: dropdown
+    attributes:
+      label: Minecraft Version
+      description: Select the Minecraft version. (If your version does not show up here, support for it has been closed)
+      options: [1.16.5, 1.18.1]
+  - type: textarea
+    attributes:
+      label: Forge and IE Version
+      description: Forge and IE versions are mandatory. Note that saying "latest" is not valid.
+      placeholder: |
+        `Forge`: xx.x.x
+        `IE`: x.xx.x-x.x.x
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Modlist
+      description: Other mods should be listed (with their versions) in a [gist](http://gist.github.com) or [pastebin](http://pastebin.com) upload. The easiest way to get these lists is a crashlog, you may force one with `F3 + C`.
+      placeholder: https://gist.github.com/username/01234567890abcdef01234567890abcd or https://pastebin.com/aAbBcCdD
+    validations:
+      required: true
+      
