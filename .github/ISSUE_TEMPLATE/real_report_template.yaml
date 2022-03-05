@@ -26,14 +26,14 @@ body:
     attributes:
       label: Forge Version
       description: The forge version you are using. Note that saying "latest" is not valid.
-      placeholder: Forge: `xx.x.x`
+      placeholder: Forge `xx.x.x`
     validations:
       required: true
   - type: input
     attributes:
       label: IE Version
       description: The forge version you are using. Note that saying "latest" is not valid.
-      placeholder: IE: `x.x.x-x.x.x`
+      placeholder: IE `x.x.x-x.x.x`
     validations:
       required: true
   - type: input
