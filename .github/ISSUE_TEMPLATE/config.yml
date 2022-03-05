@@ -2,4 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: Link to a Different Website
     url: https://www.google.com
-    about: Just a Test
+    about: Just a Test, links to Google mainpage
