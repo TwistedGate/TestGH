@@ -2,13 +2,17 @@ name: Report A
 description: Hopefully this works.
 title: "X did Y and thats not what Z should do."
 body:
+  - type: markdown
+    value: "## Markdown"
   - type: checkboxes
     attributes:
       label: Checkbox
       description: This is a Checkbox.
       options:
-        - label: Yes.
+        - label: Required.
           required: true
+        - label: Optional.
+          required: false
   - type: dropdown
     attributes:
       label: Dropdown
