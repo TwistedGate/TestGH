@@ -1,19 +1,19 @@
-name: Bug Report
-description: Create a report to help me improve this IE Add-on!
-title: "X Crash"
-labels: Bug
+name: Crash Report (WIP)
+description: Your game crashed as a result of using this mod?
+title: "[Minecraft-Version] <title>"
+labels: Crash,Bug
 body:
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists for the bug you encountered.
+      description: "Please search to see if an issue already exists for the bug you encountered."
       options:
         - label: Yes, i have searched for already existing issues.
           required: true
   - type: checkboxes
     attributes:
       label: Are you using the most recent version of X?
-      description: Please check to see if any newer version fixes the issue you're experiencing.
+      description: "Please check to see if any newer version fixes the issue you're experiencing."
       options:
         - label: Yes, i am.
           required: true
@@ -25,21 +25,36 @@ body:
   - type: input
     attributes:
       label: Forge Version
-      description: The forge version you are using. Note that saying "latest" is not valid.
-      placeholder: "`xx.xx.xx`"
+      description: |
+        The Forge version you are using.
+        
+        Saying "latest" is not valid.
+      placeholder: "xx.xx.xx"
     validations:
       required: true
   - type: input
     attributes:
-      label: IE Version
-      description: The forge version you are using. Note that saying "latest" is not valid.
-      placeholder: "`xx.xx.xx-xxx`"
+      label: Immersive Engineering Version
+      description: |
+        The Immersive Engineering version you are using.
+        
+        Saying "latest" is not valid.
+      placeholder: "xx.xx.xx-xxx"
     validations:
       required: true
   - type: input
     attributes:
       label: Full Modlist
       description: Other mods should be listed (with their versions) in a [gist](http://gist.github.com) or [pastebin](http://pastebin.com) upload. The easiest way to get these lists is a crashlog, you may force one with `F3 + C`.
+      placeholder: https://gist.github.com/username/01234567890abcdef01234567890abcd or https://pastebin.com/aAbBcCdD
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Crash Log
+      description: |
+        A file will have been generated in the folder `crash-reports` of your minecraft folder.
+        To understand what has happened, i/we need to know the content of that file.
       placeholder: https://gist.github.com/username/01234567890abcdef01234567890abcd or https://pastebin.com/aAbBcCdD
     validations:
       required: true
