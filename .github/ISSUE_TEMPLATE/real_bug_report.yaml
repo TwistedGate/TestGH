@@ -84,7 +84,9 @@ body:
   - type: input
     attributes:
       label: Logs
-      description: Please provide your latest.log related to the time during which you experienced the issue. Upload to gist (https://gist.github.com/) or pastebin (https://pastebin.com/) and paste the link here.
+      description: |
+        Please provide your latest.log related to the time during which you experienced the issue.
+        Upload to gist (https://gist.github.com/) or pastebin (https://pastebin.com/) and paste the link here.
     validations:
       required: true
   - type: textarea
@@ -99,7 +101,7 @@ body:
         
         
         
-        * Add a thumbs-up to the bug report if you are also affected. This helps the bug report become more visible to the team and doesn't clutter the comments.
+        * Add a thumbs-up to the bug report if you are also affected. This helps show the severity of this bug report and doesn't clutter the comments.
         * Add a comment if you have any insights or background information that isn't already part of the conversation.
     validations:
       required: false
