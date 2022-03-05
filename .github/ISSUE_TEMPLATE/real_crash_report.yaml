@@ -1,7 +1,7 @@
 name: Crash Report (WIP)
 description: Your game crashed as a result of using this mod?
 title: "[Minecraft-Version][CRASH] <title>"
-labels: Crash,Bug
+labels: Crash
 body:
   - type: checkboxes
     attributes:
