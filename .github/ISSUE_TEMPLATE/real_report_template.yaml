@@ -15,7 +15,9 @@ body:
       label: Are you using the most recent version of X?
       description: "Please check to see if any newer version fixes the issue you're experiencing."
       options:
-        - label: Yes, i am.
+        - label: Yes, i am using the most recent version.
+          required: true
+        - label: Yes, it still happens in the most recent version.
           required: true
   - type: dropdown
     attributes:
@@ -40,13 +42,6 @@ body:
         
         Saying "latest" is not valid.
       placeholder: "xx.xx.xx-xxx"
-    validations:
-      required: true
-  - type: input
-    attributes:
-      label: Full Modlist
-      description: Other mods should be listed (with their versions) in a [gist](http://gist.github.com) or [pastebin](http://pastebin.com) upload. The easiest way to get these lists is a crashlog, you may force one with `F3 + C`.
-      placeholder: https://gist.github.com/username/01234567890abcdef01234567890abcd or https://pastebin.com/aAbBcCdD
     validations:
       required: true
   - type: input
