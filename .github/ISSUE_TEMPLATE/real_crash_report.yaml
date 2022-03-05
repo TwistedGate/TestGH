@@ -1,6 +1,6 @@
 name: Crash Report (WIP)
 description: Your game crashed as a result of using this mod?
-title: "[Minecraft-Version] <title>"
+title: "[Minecraft-Version][CRASH] <title>"
 labels: Crash,Bug
 body:
   - type: checkboxes
@@ -8,7 +8,7 @@ body:
       label: Is there an existing issue for this?
       description: "Please search to see if an issue already exists for the bug you encountered."
       options:
-        - label: Yes, i have searched for already existing/related issues and found none.
+        - label: Yes, i have searched for already existing issues.
           required: true
   - type: checkboxes
     attributes:
@@ -48,7 +48,8 @@ body:
     attributes:
       label: Crash Log
       description: |
-        A file will have been generated in the folder `crash-reports` of your minecraft folder.
+        A file will have been generated in the folder **`crash-reports`** of your minecraft folder.
+        
         To understand what has happened, i/we need to know the content of that file.
       placeholder: https://gist.github.com/username/01234567890abcdef01234567890abcd or https://pastebin.com/aAbBcCdD
     validations:
