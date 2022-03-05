@@ -56,6 +56,6 @@ body:
         A file will have been generated in the folder **`crash-reports`** of your minecraft folder.
         
         *To understand what has happened, i/we need to know the content of that file.*
-      placeholder: https://gist.github.com/username/01234567890abcdef01234567890abcd or https://pastebin.com/aAbBcCdD
+      placeholder: <gist or pastebin link>
     validations:
       required: true
