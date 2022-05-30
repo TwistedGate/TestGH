@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Link to a Different Website
-    url: https://www.google.com
-    about: Just a Test, links to Google mainpage
+  - name: Link to Gist
+    url: https://gist.github.com/
+    about: Preferred
+  - name: Link to Pastebin
+    url: https://pastebin.com/
+    about: Alternative to Gist
