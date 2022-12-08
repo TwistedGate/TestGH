@@ -30,28 +30,6 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    attributes:
-      label: Immersive Engineering Version
-      description: |
-        The Immersive Engineering version you are using.
-      options:
-        - 1.18.2 4.0.0-15
-        - 1.18.2 4.0.0-14
-        - 1.16.5 3.4.0-13
-        - 1.16.5 3.4.0-12
-        - 1.16.5 3.3.0-11
-        - 1.16.5 3.3.0-10
-        - 1.16.5 3.3.0-9
-        - 1.16.5 3.3.0-8
-        - 1.16.5 3.3.0-7
-        - 1.16.5 3.3.0-6
-        - 1.16.5 3.3.0-5
-        - 1.16.5 3.3.0-4
-        - 1.16.5 3.2.0-3
-    validations:
-      required: true
-
   - type: input
     attributes:
       label: Immersive Engineering Version
